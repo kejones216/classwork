@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>List of Gains/Losses</title>
+    <meta charset = "utf-8">
+    <link type = "text/css" rel = "stylesheet" href = "style.css">
+  </head>
+  <body>
+  <h1>Stocks</h1>
+  <ul>
+    <li class = "large decrease">Apple: -$2534.86</li>
+    <li class = "increase">Google: $145.87</li>
+    <li class = "increase">Red Hat: $2734.45</li>
+    <li class = "decrease">IBM: -$41.15</li>
+    <li class = "increase">Microsoft: $324.59</li>
+  </ul>
+  </body>
+</html
+
+.large {
+	font-weight: bold;
+}
+.decrease {
+	color:red;
+}
+.increase {
+	color:green;
+}
