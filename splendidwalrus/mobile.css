@@ -1,0 +1,75 @@
+/* Desktop, fixed width CSS */
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Color, typography and basic layout
+ * Colors:
+ * - #f9f3e9 -> light cream (background)
+ * - #594846 -> Dark brown (body text, rules)
+ * - #42628F -> Dark blue (link text)
+ * - #7b96bc -> Medium-light blue (navigation and footer background)
+ */
+
+p {
+  margin: 0.5em 0.25em;
+}
+
+dl {
+  margin: 0 0.5em;
+}
+dt {
+ 
+  margin: 0.5em 1em 0.5em 0;
+
+}
+.intro {
+  margin: 0.5em;
+  font-weight: bold;
+}
+
+.navigation ul li {
+  float: left;
+}
+
+
+.header p {
+  margin-left: -1000px;
+}
+
+#points ul {
+  margin: 0.5em 0 1em 0.5em;
+}
+
+#points ul li {
+  margin: 0.5em 1em;
+}
+
+
+.header, .navigation, .footer {
+  clear: both;
+}
+.column {
+  margin: 10px 10px 0 0;
+}
+
+.header {
+  background:url(images/w.png) no-repeat;
+  height: 200px;
+}
+#visit {
+  width: 240px;
+  float: left;
+}
+#points {
+  width: 240px;
+  float: right;
+}
+#main {
+  margin: 10px 260px 0 250px;
+  width: 460px;
+}
